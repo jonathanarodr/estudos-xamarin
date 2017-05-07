@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using MaratonaXamarin.Views;
 
 namespace MaratonaXamarin
 {
@@ -8,7 +9,7 @@ namespace MaratonaXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new MaratonaXamarinPage();
+			MainPage = new NavigationPage(new ListagemView());
 		}
 
 		protected override void OnStart()

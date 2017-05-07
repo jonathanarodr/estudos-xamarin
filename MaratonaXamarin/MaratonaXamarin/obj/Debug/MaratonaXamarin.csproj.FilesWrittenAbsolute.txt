@@ -10,3 +10,11 @@
 /Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/bin/Debug/Xamarin.Forms.Core.dll
 /Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.ListagemView.xaml
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.ListagemView.xaml.g.cs
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.Views.ListagemView.xaml
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.Views.ListagemView.xaml.g.cs
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.Views.DetalheView.xaml
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.Views.DetalheView.xaml.g.cs
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.Views.AgendamentoView.xaml
+/Users/jonathan/XamarinProjects/MaratonaXamarin/MaratonaXamarin/obj/Debug/MaratonaXamarin.Views.AgendamentoView.xaml.g.cs

@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{8A9B5085-ABF0-461F-8F6E-7DA5B5E5B23C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MaratonaXamarin/MaratonaXamarinPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MaratonaXamarin/Views/AgendamentoView.xaml">
     <Files>
-      <File FileName="MaratonaXamarin/MaratonaXamarinPage.xaml" Line="4" Column="21" />
-      <File FileName="MaratonaXamarin/MaratonaXamarinPage.xaml.cs" Line="10" Column="31" />
+      <File FileName="MaratonaXamarin/Views/DetalheView.xaml" Line="4" Column="23" />
+      <File FileName="MaratonaXamarin/Views/DetalheView.xaml.cs" Line="2" Column="23" />
+      <File FileName="MaratonaXamarin/Views/AgendamentoView.xaml.cs" Line="13" Column="30" />
+      <File FileName="MaratonaXamarin/Views/AgendamentoView.xaml" Line="2" Column="166" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MaratonaXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />

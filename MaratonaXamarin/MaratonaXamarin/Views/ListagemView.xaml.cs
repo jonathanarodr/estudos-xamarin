@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace MaratonaXamarin
+namespace MaratonaXamarin.Views
 {
 	public class Veiculo
 	{
@@ -13,11 +13,11 @@ namespace MaratonaXamarin
 		}
 	}	
 
-	public partial class MaratonaXamarinPage : ContentPage
+	public partial class ListagemView : ContentPage
 	{
 		public List<Veiculo> Veiculos { get; set; }
 
-		public MaratonaXamarinPage()
+		public ListagemView()
 		{
 			InitializeComponent();
 
@@ -34,7 +34,8 @@ namespace MaratonaXamarin
 		void listViewVeiculo_ItemTapped(object sender, ItemTappedEventArgs e)
 		{
 			var veiculo = (Veiculo)e.Item;
-			DisplayAlert("TestDrive", string.Format("Carro {0} no valor de {1} selecionado", veiculo.Nome, veiculo.PrecoFormatado), "ok");
+			//DisplayAlert("TestDrive", string.Format("Carro {0} no valor de {1} selecionado", veiculo.Nome, veiculo.PrecoFormatado), "ok");
+			Navigation.PushAsync(new DetalheView(veiculo));
 		}
 	}
 }
