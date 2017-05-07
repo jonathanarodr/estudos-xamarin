@@ -7,6 +7,10 @@ namespace MaratonaXamarin
 	{
 		public string Nome { get; set; }
 		public decimal Preco { get; set; }
+		public string PrecoFormatado
+		{
+			get { return string.Format("R$ {0}", Preco); }
+		}
 	}	
 
 	public partial class MaratonaXamarinPage : ContentPage
@@ -25,6 +29,12 @@ namespace MaratonaXamarin
 			};
 
 			this.BindingContext = this;
+		}
+
+		void listViewVeiculo_ItemTapped(object sender, ItemTappedEventArgs e)
+		{
+			var veiculo = (Veiculo)e.Item;
+			DisplayAlert("TestDrive", string.Format("Carro {0} no valor de {1} selecionado", veiculo.Nome, veiculo.PrecoFormatado), "ok");
 		}
 	}
 }

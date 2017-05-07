@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MaratonaXamarin" x:Class="MaratonaXamarin.MaratonaXamarinPage">
 	
-	<ListView x:Name="listViewVeiculo" ItemsSource="{Binding Veiculos}">
+	<ListView x:Name="listViewVeiculo" ItemsSource="{Binding Veiculos}" Margin="10" ItemTapped="listViewVeiculo_ItemTapped">
 		<ListView.ItemTemplate>
 			<DataTemplate>
 				<ViewCell>
 					<ViewCell.View>
-						<Label Text="{Binding Nome}"></Label>
+						<StackLayout Orientation="Horizontal">
+							<Label Text="{Binding Nome}" FontSize="20" VerticalTextAlignment="Center"></Label>
+							<Label Text=" - " VerticalTextAlignment="Center"></Label>
+							<Label Text="{Binding PrecoFormatado}" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+						</StackLayout>
 					</ViewCell.View>
 				</ViewCell>
 			</DataTemplate>
