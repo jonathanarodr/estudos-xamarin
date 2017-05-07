@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MaratonaXamarin" x:Class="MaratonaXamarin.MaratonaXamarinPage">
+	
+	<ListView x:Name="listViewVeiculo" ItemsSource="{Binding Veiculos}">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<ViewCell>
+					<ViewCell.View>
+						<Label>
+							<Label.FormattedText>
+								<FormattedString>
+									<FormattedString.Spans></FormattedString.Spans>
+								</FormattedString>
+							</Label.FormattedText>
+						</Label>
+					</ViewCell.View>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+			
+</ContentPage>
