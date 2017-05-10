@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MaratonaXamarin.AgendamentoView" Title="{Binding Veiculo.Nome}">
 
-	<ContentPage.Content>
-	</ContentPage.Content>
+	<StackLayout>
+		<TableView>
+			<TableView.Root>
+				<TableSection Title="Seus dados">
+					<EntryCell Label="Nome:" Text="{Binding Nome}"></EntryCell>
+					<EntryCell Label="Fone:" Text="{Binding Fone}" Keyboard="Telephone"></EntryCell>
+					<EntryCell Label="E-mail:" Text="{Binding Email}" Keyboard="Email"></EntryCell>
+				</TableSection>
+				<TableSection Title="Agendamento">
+					<ViewCell>
+						<StackLayout Orientation="Horizontal">
+							<Label Text="Data" />
+							<DatePicker Date="{Binding Data}" />
+						</StackLayout>
+					</ViewCell>
+					<ViewCell>
+						<StackLayout Orientation="Horizontal">
+							<Label Text="Hora" />
+							<TimePicker Time="{Binding Hora}" />
+						</StackLayout>
+					</ViewCell>
+				</TableSection>
+			</TableView.Root>
+		</TableView>
+		<Button x:Name="btnAgendar" Text="Agendar" VerticalOptions="EndAndExpand" Clicked="btnAgendar_Clicked"></Button>
+	</StackLayout>
 	
 </ContentPage>

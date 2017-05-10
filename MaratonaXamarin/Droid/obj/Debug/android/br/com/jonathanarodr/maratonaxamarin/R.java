@@ -3094,6 +3094,7 @@ containing a value of this type.
         public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f090124;
         public static final int Theme_AppCompat_Light_NoActionBar=0x7f090125;
         public static final int Theme_AppCompat_NoActionBar=0x7f090126;
+        public static final int Theme_Custom=0x7f090175;
         public static final int Theme_Design=0x7f090025;
         public static final int Theme_Design_BottomSheetDialog=0x7f090026;
         public static final int Theme_Design_Light=0x7f090027;

@@ -30,3 +30,4 @@
 /Users/jonathan/XamarinProjects/MaratonaXamarin/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/jonathan/XamarinProjects/MaratonaXamarin/Droid/bin/Debug/MaratonaXamarin.dll
 /Users/jonathan/XamarinProjects/MaratonaXamarin/Droid/bin/Debug/MaratonaXamarin.dll.mdb
+/Users/jonathan/XamarinProjects/MaratonaXamarin/Droid/obj/Debug/res/values/theme.xml

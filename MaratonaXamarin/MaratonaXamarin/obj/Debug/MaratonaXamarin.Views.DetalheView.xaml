@@ -9,7 +9,6 @@
 					<SwitchCell Text="{Binding ArCondicionado}" On="{Binding OnArCondicionado, Mode=TwoWay}"></SwitchCell>
 					<SwitchCell Text="{Binding MP3Player}" On="{Binding OnMP3Player, Mode=TwoWay}"></SwitchCell>
 					<TextCell Text="{Binding ValorTotal, Mode=TwoWay}"></TextCell>
-
 				</TableSection>
 			</TableView.Root>
 		</TableView>

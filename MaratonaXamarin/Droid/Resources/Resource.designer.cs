@@ -3841,6 +3841,9 @@ namespace MaratonaXamarin.Droid
 			// aapt resource value: 0x7f090126
 			public const int Theme_AppCompat_NoActionBar = 2131296550;
 			
+			// aapt resource value: 0x7f090175
+			public const int Theme_Custom = 2131296629;
+			
 			// aapt resource value: 0x7f090025
 			public const int Theme_Design = 2131296293;
 			
