@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{8A9B5085-ABF0-461F-8F6E-7DA5B5E5B23C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MaratonaXamarin/Views/AgendamentoView.xaml.cs">
+    <Files>
+      <File FileName="MaratonaXamarin/Views/ListagemView.xaml" Line="11" Column="80" />
+      <File FileName="MaratonaXamarin/Views/ListagemView.xaml.cs" Line="23" Column="35" />
+      <File FileName="MaratonaXamarin/ViewModels/ListagemViewModel.cs" Line="46" Column="5" />
+      <File FileName="MaratonaXamarin/Views/AgendamentoView.xaml.cs" Line="61" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MaratonaXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MaratonaXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.08FCF1F0-2E31-4373-809F-B2EA43C11312" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
